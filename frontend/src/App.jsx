@@ -9,7 +9,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = `https://unpkg.com/pdfjs-dist@${pdfjsLi
 // 🔥 DYNAMIC PRODUCTION API ROUTING (Bypasses hardcoded localhost barriers)
 const API_BASE_URL = window.location.hostname === 'localhost' 
   ? 'http://localhost:5000' 
-  : 'https://your-backend-service-name.onrender.com'; // ⚠️ Note: Replace this string with your live Render backend service URL after Phase 3
+  : 'https://oaici-project-backend.onrender.com';
 
 function CustomCursor() {
   const dotRef  = useRef(null);
